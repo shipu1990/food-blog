@@ -70,10 +70,37 @@ a.order-button {
   margin-right: 2%;
   padding: 10px;
 }
-.recipes-detail-box h5 {
+.recipes-detail-box h6 {
   font-size: 20px;
   margin: 10px 0;
 }
 .recipes-detail-box img {
   width: 100%;
+}
+.social-count-box {
+  width: 76%;
+  height: 150px;
+  box-shadow: 5px 5px 40px #999;
+  border-radius: 20px;
+  margin-left: 15%;
+}
+.social-count-details {
+  width: 25%;
+  margin-left: 8%;
+  padding-top: 30px;
+}
+.social-count-details h4 {
+  font-size: 36px;
+  margin: 0 0;
+}
+.social-count-details p {
+  margin: 0;
+}
+footer {
+  width: 100%;
+  padding-top: 20px;
+  height: 150px;
+  text-align: center;
+  color: #fff;
+  background-color: black;
 }

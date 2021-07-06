@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  font-size: 14px;
 }
 
 .flexible-container {
@@ -20,6 +21,7 @@ h3 {
   font-size: 35px;
   padding-top: 100px;
 }
+
 .common-heading-color {
   color: orange;
 }
@@ -44,4 +46,34 @@ a.order-button {
   width: 100%;
   height: 600px;
   background-size: cover;
+}
+.our-recipies h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+.our-recipies-box-para {
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
+.recipes-list {
+  margin-left: 13%;
+}
+.recipes-detail-box {
+  width: 25%;
+  box-shadow: 5px 5px 20px #999;
+  border-radius: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 10px;
+}
+.recipes-detail-box h5 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.recipes-detail-box img {
+  width: 100%;
 }

@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
   margin: 0;
   font-size: 14px;
 }
@@ -77,6 +77,19 @@ a.order-button {
 .recipes-detail-box img {
   width: 100%;
 }
+footer {
+  width: 100%;
+  padding-top: 20px;
+  height: 150px;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+}
+/* Extra Section Style */
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+}
 .social-count-box {
   width: 76%;
   height: 150px;
@@ -96,11 +109,16 @@ a.order-button {
 .social-count-details p {
   margin: 0;
 }
-footer {
-  width: 100%;
-  padding-top: 20px;
-  height: 150px;
-  text-align: center;
-  color: #fff;
-  background-color: black;
+ul.main-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+ul.main-nav li {
+  padding-right: 45px;
+}
+ul.main-nav li a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
 }
